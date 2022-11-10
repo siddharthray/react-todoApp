@@ -1,0 +1,9 @@
+version: "20.10.17"
+services:
+  todo:
+    build: ./mytodo
+    container_name: myTodocontainer
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
