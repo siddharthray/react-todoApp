@@ -1,0 +1,69 @@
+.App {
+  display: flex;
+  padding: 2em;
+  flex-wrap: wrap;
+
+}
+
+.inputGrid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#todo-input {
+  width: 300px;
+  height: 40px;
+  margin-left: 5px;
+
+}
+
+.listGrid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  border-style: inset;
+  padding: 1.2em;
+
+}
+
+.del-selected {
+  margin: 20px 20px 10px 20px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 20px;
+}
+
+.modificationContainer {
+  display: flex;
+}
+
+.delete {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit {
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.checkedTodo {
+  text-decoration: line-through;
+}
+
+.addBtn {
+  height: 3em;
+  width: 6em;
+  margin-left: 10px !important;
+}
